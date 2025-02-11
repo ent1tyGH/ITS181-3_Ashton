@@ -25,7 +25,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.griel.ashton.ui.theme.AshtonTheme
 
-// Data class to hold image and string resource IDs
 data class Conversation(val imageId: Int, val strId: Int)
 
 class MainActivity : ComponentActivity() {
@@ -33,12 +32,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        // List of Conversations
         val conversations = listOf(
-            Conversation(R.drawable.weeh, R.string.weeh),
-            Conversation(R.drawable.ayoko, R.string.ayawko),
-            Conversation(R.drawable.gustoko, R.string.gustko),
-            Conversation(R.drawable.wagyan, R.string.wagyan)
+            Conversation(R.drawable.jett, R.string.Jett_Line),
+            Conversation(R.drawable.raze, R.string.Raze_Line),
+            Conversation(R.drawable.skye, R.string.Skye_Line),
+            Conversation(R.drawable.sova, R.string.Sova_Line)
         )
 
         setContent {
@@ -93,10 +91,10 @@ fun ConversationRow(conversation: Conversation) {
 @Composable
 fun PreviewConversationList() {
     val conversations = listOf(
-        Conversation(R.drawable.weeh, R.string.weeh),
-        Conversation(R.drawable.ayoko, R.string.ayawko),
-        Conversation(R.drawable.gustoko, R.string.gustko),
-        Conversation(R.drawable.wagyan, R.string.wagyan)
+        Conversation(R.drawable.jett, R.string.Jett_Line),
+        Conversation(R.drawable.raze, R.string.Raze_Line),
+        Conversation(R.drawable.skye, R.string.Skye_Line),
+        Conversation(R.drawable.sova, R.string.Sova_Line)
     )
 
     AshtonTheme {

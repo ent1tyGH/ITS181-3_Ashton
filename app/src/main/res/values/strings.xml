@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Ashton</string>
-    <string name="description">Weeh</string>
-    <string name="weeh">Weeh</string>
-    <string name="ayawko">Ayaw ko yan</string>
-    <string name="gustko">Gusto ko yan</string>
-    <string name="wagyan">Huwag yan</string>
+    <string name="description">Chat Convo</string>
+    <string name="Jett_Line">"I'm sick."</string>
+    <string name="Raze_Line">Okay cool.</string>
+    <string name="Skye_Line">Blehh.</string>
+    <string name="Sova_Line">Okay look at my cool bow though.</string>
 </resources>
